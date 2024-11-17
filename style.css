@@ -6,6 +6,7 @@
 }
 
 .container{
+    border : 2px solid transparent;
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(135deg, #cf9aff, #95c0ff);
@@ -44,8 +45,18 @@
     cursor: pointer;
 }
 
+.notesContainer{
+    margin : 20px;
+}
+
+
+.note-wrapper{
+    position : relative;
+}
+
+
+
 .input-box{
-    position: relative;
     width: 100%;
     max-width: 500px;
     min-height: 150px;
@@ -57,10 +68,8 @@
     border-radius: 5px;
 }
 
-.input-box img{
+ .note-wrapper img{
     width: 25px;
     position: absolute;
-    bottom: 15px;
-    right: 15px;
     cursor: pointer;
 }
